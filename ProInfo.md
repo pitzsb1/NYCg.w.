@@ -5,7 +5,7 @@
 
 ### Subject | 2010년 Baseline 대비 2024년 뉴욕 시립 건물의 에너지 성능 변화를 바탕으로 한 현시점 ZEB 등급 예측 모델링
 
-### DataSet | 2024 NYC Municipal Government Energy Benchmarking Results
+### DataSet | 2024 NYC Municipal Government Energy Benchmarking Results (약 3,300개)
 
 
 <img width="1034" height="288" alt="image" src="https://github.com/user-attachments/assets/e4cc597f-692d-417b-96bc-4faaab981504" />
