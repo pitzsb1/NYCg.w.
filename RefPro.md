@@ -16,7 +16,24 @@
 
 ## 원본 데이터 | Seattle-energy-consumption
 
-<img width="881" height="546" alt="image" src="https://github.com/user-attachments/assets/3f450854-25be-46f3-87c5-a75bc639da35" />
+컬럼명 (Column) | 설명 (Description) | 주요 통계 및 특징
+----- | ----- | -----
+OSEBuildingID | 건물 고유 ID | 1 ~ 50068 범위의 고유 식별자
+DataYear | 데이터 수집 연도 | 2015년 데이터 (약 3,340건)
+BuildingType | 건물 용도 구분 | NonResidential (44%), Multifamily LR (31%) 등
+PrimaryPropertyType | 주요 건물 유형 | Hotel, Low-Rise/Mid-Rise Multifamily 등 (총 3,287개 고유값)
+PropertyName | 건물 명칭 | MAYFLOWER PARK HOTEL, PARAMOUNT HOTEL 등
+TaxParcelID | 세금 부과 구역 번호 | 토지 식별을 위한 고유 번호 (약 3,298개 고유값)
+Location | 지리적 위치 정보 | 위도(Latitude), 경도(Longitude), 상세 주소 포함
+CouncilDistrictCode | 시의회 구역 코드 | 1 ~ 7번 구역으로 구분
+Neighborhood | 인근 지역구 | DOWNTOWN (17%), EAST (13%) 등 시애틀 내 지역명
+YearBuilt | 완공 연도 | 1900년 ~ 2015년 분포 (노후도 계산의 기준)
+
+OSEBuildingID | DataYear | BuildingType | PropertyName | Neighborhood | YearBuilt
+----- | ----- | ----- | ----- | ----- | -----
+1 | 2015 | NonResidential | MAYFLOWER PARK HOTEL | DOWNTOWN | 1927
+2 | 2015 | NonResidential | PARAMOUNT HOTEL | DOWNTOWN | 1996
+3 | 2015 | NonResidential | WESTIN HOTEL | DOWNTOWN | 1969
 
 **2015년 데이터**: 47개의 행(변수)과 약 3,340개의 열(건물)
 
